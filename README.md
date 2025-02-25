@@ -11,17 +11,7 @@ However, researchers often know the correct plasmid length from additional valid
 ## Purpose of This Tool
 This Python script addresses the issue of misalignment by filtering FASTQ reads to include only those consistent with the known plasmid length (within a user-specified tolerance). By focusing on reads of the appropriate length, the script prevents incorrect or duplicated fragments from distorting the final assembly.
 
-**Installation and Requirement**
-On **UF HiperGator** (or a similar computing cluster environment), ensure the following modules are loaded:
-
-```bash
-module load python
-module load unicycler
-
-
-## Usage
-
-**Install the requirements on UF HiperGator:**
+**Installation and Requirements**
 
 ```bash
 module load python
