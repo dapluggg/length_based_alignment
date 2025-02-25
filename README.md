@@ -17,3 +17,35 @@ On **UF HiperGator** (or a similar computing cluster environment), ensure the fo
 ```bash
 module load python
 module load unicycler
+
+
+## Usage
+
+**Install the requirements on UF HiperGator:**
+
+```bash
+module load python
+module load unicycler
+```
+   
+**Clone the GitHub repository:**
+
+```bash
+git clone https://github.com/dapluggg/length_based_alignment.git
+```
+   
+**Print out the help message:**
+
+```bash
+python plasmid_aligner.py --help
+```
+   
+**Run the script with appropriate parameters:**
+
+```bash
+python plasmid_aligner.py \
+  --fastq /path/to/your/fastq/from/wholeplasmidseq/ \
+  --reference_length 9600 \
+  --length_wiggle 1000 \
+  --output /path/to/your/output/directory/
+```
